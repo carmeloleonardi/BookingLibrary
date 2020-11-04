@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201104113823_BookAuthorEntities.cs" />
+    <Compile Remove="Migrations\20201104113823_BookAuthorEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201104114107_BookAuthorEntities.cs" />
+    <Compile Remove="Migrations\20201104114107_BookAuthorEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201104114249_BookAuthorEntities.cs" />
+    <Compile Remove="Migrations\20201104114249_BookAuthorEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201104115131_BookAuthorEntities.cs" />
+    <Compile Remove="Migrations\20201104115131_BookAuthorEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201104165400_CategoryEditorBiographyEntities.cs" />
+    <Compile Remove="Migrations\20201104165400_CategoryEditorBiographyEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201104170430_CategoryEditorBiographyEntities.cs" />
+    <Compile Remove="Migrations\20201104170430_CategoryEditorBiographyEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201104170805_CategoryEditorBiographyEntities.cs" />
+    <Compile Remove="Migrations\20201104170805_CategoryEditorBiographyEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201104171545_CategoryEditorBiographyEntities.cs" />
+    <Compile Remove="Migrations\20201104171545_CategoryEditorBiographyEntities.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+  </ItemGroup>
+
+
+</Project>
